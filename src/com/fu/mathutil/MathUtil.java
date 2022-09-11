@@ -19,7 +19,9 @@ public class MathUtil {
         System.out.println("5! = 120; actual: " + result );
         //kĩ thuật kiểm thử phầm mềm: ước lượng xem giá trị trả về của hàm là gif
         
-        
+                System.out.println("1! = 1; actual: " + MathUtil1.getFactorial(1) );      
+                System.out.println("3! = 6; actual: " + MathUtil1.getFactorial(3) );
+
        
     }
     
